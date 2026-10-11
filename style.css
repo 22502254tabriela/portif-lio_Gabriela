@@ -1,0 +1,227 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.fundo{
+object-fit: cover;
+}
+body{
+    background-image:url("download.gif") ;
+    background-repeat: no-repeat;
+    --gradiente1: #2e0063;
+    --gradiente2: #ffffff;
+    --gradiente3: #ffed93;
+    overflow-x: hidden;
+ 
+}
+
+
+@keyframes moverGradiente {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
+.p1{
+    font-family: "Cormorant", serif;
+    width: 900px;
+    height: 90px;
+    color: white;
+    position: relative;
+    margin-top: 10%;
+    left: 35%;
+    font-size: 80px;
+ 
+             background: linear-gradient(45deg, var(--gradiente1),var(--gradiente2), var(--gradiente3));
+             background-size: 200% 200%;
+             -webkit-background-clip: text;
+            background-clip: text;
+             -webkit-text-fill-color: transparent;
+             animation: moverGradiente 4s ease infinite;
+}
+
+
+
+.p3{
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    width: 900px;
+    height: 100px;
+    color: white;
+    position: relative;
+    margin-top: -2%;
+    left: 48%;
+    font-size: 100px;
+    background: linear-gradient(45deg, var(--gradiente1),var(--gradiente2), var(--gradiente3));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: moverGradiente 4s ease infinite;
+             
+}
+.p4{
+    font-family: "system-ui";
+    width: 900px;
+    height: 60px;
+    color: white;
+    position: relative;
+    margin-top: 10%;
+    left: 44%;
+    font-size: 20px;
+    background: linear-gradient(45deg, #ffffff, #ffebcc, #fff1aa);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: moverGradiente 4s ease infinite;
+
+}
+.div1 img{
+    width: 100%;
+    height: 20%;
+}
+
+.img2{
+    height: 100px;
+    position: relative;
+    z-index: 999;
+}
+
+
+.div2{
+    width: 500px;
+    height: 100px;
+    color: white; 
+    display: flex;
+    margin-top: -55px;
+    gap: 89px;
+    margin-left: 1250px;
+    font-size: 30px;
+}
+
+.divgradiente{
+    overflow: hidden;
+    width: 100%; 
+    height: 900px;
+    margin-top: 350px;
+    background-color: rgb(7, 9, 24);
+}
+
+.divp{
+width: 2000px;
+height: 1900px;
+background-color: rgba(51, 60, 109, 0.37);
+filter: blur(100px);
+margin-left: 600px;
+animation: rotação 20s linear infinite;
+align-items: center;
+
+}
+
+
+@keyframes rotação{
+from{transform: rotate(0deg);}
+
+    to{transform: rotate(360deg);}
+}
+
+
+
+
+.botao{
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.botao:hover{
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    color: rgb(253, 241, 200);
+    transform: translateY(-8px); 
+    transition: 0.3s;
+}
+
+
+.img2{
+    width: 300px;
+    height: 560px;
+    margin-left: -400px;
+    
+   
+}
+
+
+.img3{
+    margin-top: 230px;
+    margin-left: 100px;
+}
+
+
+#div5{
+    width: 400px;
+    height: 30px;
+    justify-self: center;
+    align-self: center;
+    background-color: #ffe9c9;
+    position: relative ;
+    top: -830px;
+    left: 329px;
+    display: flex;
+    gap: 50px;
+    border-radius: 15px;
+
+}
+
+#div5>a{
+    display: flex;
+    text-decoration: none;
+    font-family: "Cormorant", serif;
+    position: relative;
+    left: 50px;
+    top:3px;
+    color: rgb(3, 0, 44);
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+#div5>a:hover{
+    box-shadow: rgb(3, 0, 44);
+    color: rgb(12, 39, 114);
+    transform: translateY(-5px); 
+    transition: 0.3s;
+}
+
+.aboutmee{
+     width: 400px;
+     height: 300px;
+     position: relative;
+     top: -700px;
+     left: 1100px;
+    
+}
+
+
+.aboutmee>p{
+    color: white;
+    font-size: 25px;
+    font-family: "Cormorant", serif;
+}
+
+
+
+
+
+
